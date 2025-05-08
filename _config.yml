@@ -50,7 +50,7 @@ linkedin_username: 문규환
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: images/icon.jpg
+about_profile_image: images/icon.png
 about_content: | # this will include new lines to allow paragraphs
   Kubernetes & Helm, Scala, Thrift 등 다양한 기술들을 통해 백엔드 서비스를 개발 및 운영하고 있습니다. <br/>
 
