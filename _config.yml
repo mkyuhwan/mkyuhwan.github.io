@@ -71,11 +71,11 @@ content:
         link: https://www.ahnlab.com
         quote: >
           Artificial Intelligence Team
-        description: | # this will include new lines to allow paragraphs
-          * 행위 데이터를 통한 악성 진단 ML 모델 관련 서비스 개발 및 운영
+        description: |
+          * 지식 검색 서비스 개발
+            * 의미 검색을 통한 LLM 기반 RAG 구축
+          * 행위, 페이로드 도메인 수집 및 진단 체계 구축
             * **일 500 만건** 행위 데이터 수집 및 악성 진단
-          * 지식 검색 서비스 개발 및 운영
-            * Milvus 를 활용한 지식 도메인 RAG 구축
           * Milvus, Kafka 등 인프라 구축 및 활용
             * Milvus 를 활용한 LLM 진단 체계 캐시 구성 (**QPS 200 이상 및 P99 100ms 이하**)
           * Docker & Kubernetes & Helm 기반 서비스 개발 및 운영
@@ -84,66 +84,35 @@ content:
     content:
       - layout: left
         title: Frontend
-        #        sub_title: Qualifications (eg. BA Performing Arts)
-        #        caption: Date Range (eg. 2016 - 2019)
-        #        quote: >
-        #          Short institution or course description (optional)
-        description: | # this will include new lines to allow paragraphs
+        description: |
           * Streamlit (Python)
       - layout: left
         title: Backend
-#        sub_title: Qualifications (eg. BA Performing Arts)
-#        caption: Date Range (eg. 2016 - 2019)
-#        quote: >
-#          Short institution or course description (optional)
-        description: | # this will include new lines to allow paragraphs
-          * Java
-            * Spring Boot, Spring MVC, Spring Data JPA
-            * JPA / Hibernate, Querydsl
-            * Gradle
+        description: | 
           * Scala
             * Twitter Finatra, Twitter Server, Twitter Finagle
             * SBT
       - layout: left
         title: DevOps
-#        sub_title: Qualifications (eg. BA Performing Arts)
-#        caption: Date Range (eg. 2016 - 2019)
-#        quote: >
-#          Short institution or course description (optional)
-        description: | # this will include new lines to allow paragraphs
+        description: |
           * HTTP, Apache Thrift
           * Cassandra, MinIO, Milvus
           * ZooKeeper, Kafka, Spark
+          * Grafana, Istio
           * Kubernetes, Helm, Rancher
-          * Linux Server (CentOS 7, Rocky Linux 8)
           * Git, Jira
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
       - layout: left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any
-        # other value (or no value) means no border will be displayed
-        title: pipiolo-springboot2-webservice
-#        link:
-#        link_text: Link Text
-        additional_links:
-          - title: Pipi-Olo/pipiolo-springboot2-webservice
-            icon: fab fa-github
-            url: https://github.com/Pipi-Olo/pipiolo-springboot2-webservice
-#          - title: Github page for project (eg. sproogen/modern-resume-theme)
-#            icon: fab fa-github
-#            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-#        quote: >
-#          Short overview of the project (optional)
-        description: | # this will include new lines to allow paragraphs
-          * 프로젝트 Beyond 이동욱 저자 - '스프링 부트와 AWS로 혼자 구현하는 웹 서비스' 
-          * AWS 을 이용한 서버 운영 및 Code Deploy 를 통한 무중단 배포
+        title: Tool
+        description: |
+          * VSCode, JetBrain IntelliJ
+          * GitHub Copilot
   - title: Education
     layout: list
     content:
       - layout: left
         title: LLM Application with RAG
         caption: 2024.10 ~ 2024.10
+        link: https://inf.run/j3KRb
         quote: >
           Vector Database Milvus Utilization
         description: |
@@ -151,21 +120,17 @@ content:
           * LangChain 을 통한 RAG Application 개발
       - layout: left
         title: inflearn-sprig
-#        sub_title: Server Developer
         caption: 2022.04 ~ 2022.10
         link: https://www.inflearn.com/users/74366/@yh
         quote: >
           Java Spring Backend
-        description: | # this will include new lines to allow paragraphs
+        description: |
           * Spring Boot, MVC 등 Spring 기본 개념
           * Java JPA & Spring Data JPA, Querydsl 교육
       - layout: left
         title: 중앙대학교 컴퓨터공학부
-#        sub_title:
         caption: 2015.03 ~ 2019.02
         link: https://www.cau.ac.kr
-#        quote: >
-#        description: | # this will include new lines to allow paragraphs
 
 # Footer
 footer_show_references: true
