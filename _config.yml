@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: 문규환
-title: Server Developer
+title: Engineer
 # email:
 # email_title: Email (Email title override)
 # phone: Your phone number (optional)
@@ -52,13 +52,17 @@ additional_links:
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/icon.png
 about_content: | # this will include new lines to allow paragraphs
-  Kubernetes & Helm, Scala, Thrift 등 다양한 기술들을 통해 백엔드 서비스를 개발 및 운영하고 있습니다. <br/>
+  단순한 기능 구현을 넘어, 복잡한 비즈니스 문제를 기술적으로 정의하고 해결하는 데 열정을 가지고 있습니다. <br/>
+  
+  비지니스 문제 도출 및 해결부터 자동화 및 모니터링까지 비지니스 전반에 걸친 해결책을 제공합니다. <br/>
 
   테스트를 통해 코드의 안정성을 높이고 지속적인 테스트 커버리지 관리를 중요하게 생각합니다. <br/>
 
-  Milvus, Kafka, 빌드 머신 (RockyLinux 8) 등 여러 인프라를 구축 및 운영하고 있습니다. <br/>
+  Milvus, Kafka 등 여러 인프라를 구축 및 운영하고, <br/>
 
-  새로운 기술 도입, 성능 튜닝 등 다양한 방법으로 여러 문제들을 해결하는 것을 좋아합니다.
+  Scala, Thrift 등 다양한 기술들을 통해 비지니스 문제점을 해결하고 있습니다. <br/>
+  
+  새로운 기술 도입 등 다양한 방법으로 여러 문제들을 해결하는 것을 좋아합니다.
 
 content:
   - title: Experience
@@ -72,11 +76,10 @@ content:
         quote: >
           Artificial Intelligence Team
         description: |
-          * 지식 검색 서비스 개발
-            * 의미 검색을 통한 LLM 기반 RAG 구축
-          * 행위, 페이로드 도메인 수집 및 진단 체계 구축
-            * **일 500 만건** 행위 데이터 수집 및 악성 진단
-          * Milvus, Kafka 등 인프라 구축 및 활용
+          * Kafka, Spark 를 활용한 대규모 데이터 처리 파이프라인 개발 및 운영
+          * 통합 위협 검색 서비스 개발
+            * Milvus & LLM 기반 지식 검색 시스템 구축
+          * Milvus, Kafka 등 인프라 구축 및 운영
             * Milvus 를 활용한 LLM 진단 체계 캐시 구성 (**QPS 200 이상 및 P99 100ms 이하**)
           * Docker & Kubernetes & Helm 기반 서비스 개발 및 운영
   - title: Technology
@@ -86,7 +89,7 @@ content:
         title: Frontend
         description: |
           * Python
-            * Streamlit, Reflex
+            * Streamlit, Reflex (Tailwind CSS)
       - layout: left
         title: Backend
         description: | 
