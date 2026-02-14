@@ -83,6 +83,137 @@ content:
           * Milvus, Kafka 등 인프라 구축 및 운영
             * Milvus 를 활용한 LLM 진단 체계 캐시 구성 (**QPS 200 이상 및 P99 100ms 이하**)
           * Docker & Kubernetes & Helm 기반 서비스 개발 및 운영
+  - title: Project
+    layout: list
+    content:
+      - layout: left
+        title: IP 수집 및 진단 체계 구축
+        caption: 2025.10 ~
+        quote: >
+          로그, MAIL 등 통합 도메인 진단을 위한 첫 걸음
+        description: |
+          * 주요 기술: Scala & Twitter Finatra, Python & Reflex, Thrift, Drools, Cassandra, Kubernetes
+          * 주요 역할: 프론트, 백엔드 엔지니어
+          * 담당 업무
+            * IP 진단 체계 설계 및 개발
+            * 파일, 로그 등 다양한 도메인에서 IP 추출 및 수집
+          * 주요 성과
+            * 파일, 로그 등 다양한 도메인을 연결지을 수 있는 도메인 -> 통합 진단 발판 마련
+      - layout: left
+        title: 통합 검색 서비스 개발
+        caption: 2025.07 ~ 2025.12
+        quote: >
+          파편화된 여러 도메인의 시맨틱 통합 검색 엔진
+        description: |
+          * 주요 기술: Scala & Twitter Finatra, Http, Milvus, Cassandra, Kubernetes
+          * 주요 역할: 백엔드, 인프라 엔지니어
+          * 담당 업무
+            * 파일, 로그 등 각 진단 도메인의 시맨틱 검색 기능 추가
+            * cve, cwe 등 위협 인텔리전스 RAG 파이프라인 구축
+          * 주요 성과
+            * 풍부한 위협 인텔리전스 인사이트을 통한 보안 분석가의 탐지 및 대응 역량 강화
+      - layout: left
+        title: Milvus 인프라 설치 및 운영
+        caption: 2025.07 ~ 2025.12
+        quote: >
+          팀 내 최다 트래픽 인프라 설치 및 운영
+        description: |
+          * 주요 기술: Scala & Twitter Finatra, Http, Milvus, Kubernetes
+          * 주요 역할: 백엔드, 인프라 엔지니어
+          * 담당 업무
+            * Milvus 인프라 설치 및 운영
+            * 임베딩 등 다양한 벡터 기반 솔루션 제공 REST API 서버 개발
+          * 주요 성과
+            * QPS 200 이상 및 P99 100ms 이하의 LLM 진단 체계 캐시를 통한 Coverage 100% 달성
+            * 이미지 기반 URL 진단 체계에서 피싱 사이트 탐지 기능 추가
+      - layout: left
+        title: LLM 기반 로그 진단 체계 구축
+        caption: 2024.10 ~ 2025.06
+        quote: >
+          LLM 기반 로그 위협 보고서 생성을 통한 업무 효율화
+        description: |
+          * 주요 기술: Scala & Twitter Finatra, Python & Reflex, Http, Mcp, Milvus, Kubernetes
+          * 주요 역할: 백엔드 엔지니어
+          * 담당 업무
+            * LLM 기반 로그 진단 서비스 개발
+          * 주요 성과
+            * 기존 ML 모델 대비 진단 로그 범위 확장
+            * AI 위협 보고서 생성을 통한 보안 관제 업무 효율화
+      - layout: left
+        title: AI API 개발
+        caption: 2024.04 ~ 2024.09
+        quote: >
+          AI 진단 기능 등 여러 기능을 타팀에 제공하기 위한 REST API 서버 개발
+        description: |
+          * 주요 기술: Scala & Twitter Finatra, HTTP, Kubernetes
+          * 주요 역할: 백엔드 엔지니어
+          * 담당 업무
+            * 팀내 Thrift 통신을 http 로 변환하여 타팀에 REST API 형태로 제공
+            * 행위, 페이로드 도메인에 대한 API 개발
+          * 주요 성과
+            * Twitter Finatra 를 통한 http 서버 개발 가이드 제공
+            * 기존에 각 제품별 API 서버 통합을 통한 유지보수 비용 제거
+            * Swagger 제공을 통한 타팀과의 의사소통 원활
+      - layout: left
+        title: AI Portal 개발
+        caption: 2024.04 ~ 2024.09
+        quote: >
+          인공지능개발실이 제공하는 다양한 AI 진단 통합 포탈 서비스 개발
+        description: |
+          * 주요 기술: Python, Streamlit, Reflex, Spark, Postgres, Kubernetes
+          * 주요 역할: 프론트, 데이터 엔지니어
+          * 담당 업무
+            * AI 수집량, AI 진단 미탐/오탐 등 다양한 통계 파이프라인 구축
+            * 행위, 페이로드 도메인 AI Portal 개발
+          * 주요 성과
+            * AI 진단 결과에 대한 가시성 제공
+            * 타팀에 AI 활용 가이드라인 제공
+      - layout: left
+        title: 실시간 로그 수집 및 진단 체계 구축
+        caption: 2023.08 ~ 2024.03
+        quote: >
+          다양한 출처의 로그 데이터를 실시간으로 수집하고 진단하는 체계 구축
+        description: |
+          * 주요 기술: Scala, Twitter Finagle, Thrift, Airflow, Kafka, Spark, MinIO, Kubernetes
+          * 주요 역할: 백엔드, 인프라 엔지니어
+          * 담당 업무
+            * Airflow 인프라 설치 및 운영
+            * 다양한 형태의 로그 데이터를 수집 및 가공하여, ML 학습 데이터로 활용
+            * 실시간 로그 수집 및 진단 체계 설계 및 개발
+            * On-Premise 행위 로그 진단 서비스 개발
+          * 주요 성과
+            * 파일, 행위 등 다양한 도메인에서 활용 가능한 Kafka-Spark-MinIO 데이터 적재 파이프라인 구축
+            * 사내 최초 로그 기반 ML 진단 서비스 제공
+      - layout: left
+        title: 빌드 머신 구축
+        caption: 2023.06 ~ 2023.07
+        quote: >
+          폐쇄망 환경에서 인공지능팀의 공통된 빌드 환경 제공
+        description: |
+          * 주요 기술: CentOS7, RockyLinux, Jira
+          * 주요 역할: 인프라 엔지니어
+          * 담당 업무
+            * 빌드 머신 구축 및 운영
+            * 빌드 머신의 보안 패치 및 성능 관리
+          * 주요 성과
+            * 빌드 머신 구축 및 운영을 통한 안정적인 빌드 환경 제공
+            * Java, Python 테스트 커버리지 추가 및 Jira 연동을 통한 관리
+      - layout: left
+        title: 파일 정적 분석 체계 구축
+        caption: 2023.01 ~ 2023.05
+        quote: >
+          CAPA 등 다양한 정적 분석 도구를 통해 실시간으로 수집되는 파일들을 정적 분석하여, ML Feature 를 추출하는 체계 구축
+        description: |
+          * 주요 기술: Python, Celery-Flower, Kafka, MinIO, Kubernetes
+          * 주요 역할: 백엔드, 인프라, 데이터 엔지니어
+          * 담당 업무
+            * Celery, Kafka 인프라 설치 및 운영
+            * 파일 정적 분석 서비스 개발
+            * 다양한 파일 정적 도구 추가
+            * 각 정적 분석 도구의 ML Feature 성능 테스트
+          * 주요 성과
+            * 설명 가능한 모델 진단 결과 생성
+            * 기존 ML 모델 성능이 낮아 진단할 수 없었던 .NET, ELF 등 진단 영역 확장
   - title: Technology
     layout: list
     content:
@@ -93,7 +224,7 @@ content:
             * Streamlit, Reflex (Tailwind CSS)
       - layout: left
         title: Backend
-        description: | 
+        description: |
           * Scala
             * Twitter Finatra, Twitter Server, Twitter Finagle
             * SBT
@@ -109,7 +240,7 @@ content:
       - layout: left
         title: Tool
         description: |
-          * VSCode, JetBrain IntelliJ
+          * VSCode, JetBrain Pycharm/IntelliJ
           * GitHub Copilot
   - title: Education
     layout: list
@@ -150,7 +281,7 @@ sass:
   style: compressed
 
 plugins:
- - jekyll-seo-tag
+  - jekyll-seo-tag
 
 exclude : [
   "Gemfile",
@@ -163,4 +294,4 @@ exclude : [
   "lib/",
   "scripts/",
   "docker-compose.yml",
-  ]
+]
